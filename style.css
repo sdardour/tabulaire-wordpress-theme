@@ -1,0 +1,90 @@
+/*
+Theme Name: Tabulaire
+Text Domain: tabulaire
+Version: 1.0
+Requires at least: 4.5
+Description: Tabulaire turns WordPress into a note-taking app. Based on Bootstrap and requires, therefore, the Bootstrap Plugin — https://github.com/sdardour/bootstrap-inside-wordpress-plugin/ —. You may also need to install and activate the Force Login Plugin — https://github.com/sdardour/force-login-wordpress-plugin — to keep your notes private.
+Tags: minimal, simple, light-weight, responsive
+Author: lab@sdardour.com
+Author URI: https://sdardour.com/lab
+Theme URI: https://sdardour.com/lab/2020/tabulaire-wordpress-theme/
+License:
+License URI:
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+    background: #f9f9f9;
+}
+#tabulaire {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 2;
+}
+#tabulaire .hideme {
+    height: 0;
+    visibility: hidden;
+    display: none;
+}
+#tabulaire .vspace1 {
+    height: 1px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#tabulaire .vspace2 {
+    height: 1px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#tabulaire hr {
+    width: 100%;
+    max-width: 250px;
+    margin: 2rem auto;
+    border-top: 1px dashed rgba(0, 0, 0, 0.1);
+}
+#tabulaire h1, #tabulaire h2, #tabulaire h3, #tabulaire h4, #tabulaire h5, #tabulaire p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#tabulaire p, #tabulaire figure {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#tabulaire blockquote {
+    margin: 0 2rem;
+    padding: 0 2rem;
+    border-left: 5px solid #999;
+    color: #666;
+}
+#tabulaire figcaption {
+    margin: 0;
+    color: #6c757d;
+    font-size: 80%;
+    font-weight: 400;
+    text-align: center;
+}
+#tabulaire ul, #tabulaire ol, #tabulaire li {
+    margin: 0.2rem;
+}
+#tabulaire .site-info a, #tabulaire .site-info a:link, #tabulaire .site-info a:visited, #tabulaire .site-info a:focus, #tabulaire .site-info a:hover, #tabulaire .site-info a:active {
+    color: #17a2b8;
+    text-decoration: none;
+}
+#tabulaire h1 a, #tabulaire h1 a:link, #tabulaire h1 a:visited, #tabulaire h1 a:focus, #tabulaire h1 a:hover, #tabulaire h1 a:active,
+#tabulaire h2 a, #tabulaire h2 a:link, #tabulaire h2 a:visited, #tabulaire h2 a:focus, #tabulaire h2 a:hover, #tabulaire h2 a:active,
+#tabulaire h3 a, #tabulaire h3 a:link, #tabulaire h3 a:visited, #tabulaire h3 a:focus, #tabulaire h3 a:hover, #tabulaire h3 a:active,
+#tabulaire h4 a, #tabulaire h4 a:link, #tabulaire h4 a:visited, #tabulaire h4 a:focus, #tabulaire h4 a:hover, #tabulaire h4 a:active,
+#tabulaire h5 a, #tabulaire h5 a:link, #tabulaire h5 a:visited, #tabulaire h5 a:focus, #tabulaire h5 a:hover, #tabulaire h5 a:active {
+    color: #1e4e79;
+    text-decoration: none;
+}
+img.plus-sign:hover {
+    opacity: 0.75;
+}
