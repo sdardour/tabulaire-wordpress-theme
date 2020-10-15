@@ -6,7 +6,7 @@ if (function_exists("add_theme_support")) {
 
 function SDARDOURCOM_TABULAIRE_THEME_DEMO_WEBSITE()
 {
-	return true;
+	return false;
 }
 
 function SDARDOURCOM_TABULAIRE_THEME_CATEGORIES_LIST()

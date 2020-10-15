@@ -16,19 +16,17 @@
 
 	<?php if ( $searchMode ) { ?>
 
-		<h2 class="text-center text-success">
+		<h2 class="text-center text-muted">
 			<?php echo "Search Results: " . $_GET[ "s" ] ; ?>
 		</h2>
 
 	<?php } else { ?>
 
-		<h2 class="text-center text-success">
+		<h2 class="text-center text-muted">
 			Latest Notes
 		</h2>
 
 	<?php } ?>
-
-	<hr />
 
 	<div class="form-group" style="width: 100%; max-width: 600px; margin: 0 auto;">
 		<input type="search" class="form-control" id="tabulaire-f" placeholder="Quick Search" />

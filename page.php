@@ -16,12 +16,6 @@
 
 		<?php } ?>
 
-		<h2 class="text-center text-success">
-			Pinned
-		</h2>
-
-		<hr />
-
 		<?php while ( have_posts() ) : the_post() ; ?>
 
 			<?php

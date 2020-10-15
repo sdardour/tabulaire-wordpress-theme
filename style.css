@@ -12,11 +12,11 @@ License:
 License URI:
 */
 
-@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Inter);
 body {
     margin: 0;
     padding: 0;
-    font-family: "Work Sans", sans-serif;
+    font-family: Inter, sans-serif;
     background: #f9f9f9;
 }
 #tabulaire {
@@ -75,7 +75,6 @@ body {
 }
 #tabulaire .site-info a, #tabulaire .site-info a:link, #tabulaire .site-info a:visited, #tabulaire .site-info a:focus, #tabulaire .site-info a:hover, #tabulaire .site-info a:active {
     color: #17a2b8;
-    text-decoration: none;
 }
 #tabulaire h1 a, #tabulaire h1 a:link, #tabulaire h1 a:visited, #tabulaire h1 a:focus, #tabulaire h1 a:hover, #tabulaire h1 a:active,
 #tabulaire h2 a, #tabulaire h2 a:link, #tabulaire h2 a:visited, #tabulaire h2 a:focus, #tabulaire h2 a:hover, #tabulaire h2 a:active,
