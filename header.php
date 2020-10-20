@@ -35,7 +35,7 @@
 								Notes
 							</a>
 							<div class="dropdown-menu" aria-labelledby="tabulaire-navbarDropdown">
-								<a class="dropdown-item" href="<?php echo home_url( "/" ) ; ?>">Latest Notes</a>
+								<a class="dropdown-item" href="<?php echo home_url( "/" ) ; ?>">Latest</a>
 								<div class="dropdown-divider"></div>
 								<?php echo SDARDOURCOM_TABULAIRE_THEME_CATEGORIES_LIST() ; ?>
 							</div>
