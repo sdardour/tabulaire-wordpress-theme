@@ -22,14 +22,9 @@
 		<div class="bootstrap-inside">
 
 			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-				<a class="nav-brand" href="<?php bloginfo( "url" ) ; ?>" title="Home">
-					<img src="<?php echo get_template_directory_uri(); ?>/home.svg" width="30" height="30" class="home-sign d-inline-block align-top" alt="" />
-				</a>
-				&nbsp;
 				<a class="nav-brand" href="<?php bloginfo( "url" ) ; ?>/wp-admin/post-new.php" title="Add New">
 					<img src="<?php echo get_template_directory_uri(); ?>/plus.svg" width="30" height="30" class="plus-sign d-inline-block align-top" alt="" />
 				</a>
-				&nbsp;
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tabulaire-navbarSupportedContent" aria-controls="tabulaire-navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
