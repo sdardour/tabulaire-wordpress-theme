@@ -84,6 +84,6 @@ body {
     color: #1e4e79;
     text-decoration: none;
 }
-img.plus-sign:hover {
+img.home-sign:hover, img.plus-sign:hover {
     opacity: 0.75;
 }
