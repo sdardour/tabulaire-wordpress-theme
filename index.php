@@ -98,9 +98,9 @@
 
 <?php else : ?>
 
-	<h5 class="text-center text-danger">
+	<h2 class="text-center text-danger">
 		There’s nothing to show here
-	</h5>
+	</h2>
 
 	<hr />
 
